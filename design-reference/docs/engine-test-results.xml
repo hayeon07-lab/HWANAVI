@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<testsuite name="dev.hwanaebi.core.StressEngineTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2026-11-15T06:30:39" time="0.105">
+  <properties />
+  <testcase name="pendingExpiresAndDoesNotPlayLater" classname="dev.hwanaebi.core.StressEngineTest" time="0.03" />
+  <testcase name="staleTokenCannotFinishNewPlayback" classname="dev.hwanaebi.core.StressEngineTest" time="0.038" />
+  <testcase name="staleSafetyNeverStarts" classname="dev.hwanaebi.core.StressEngineTest" time="0.0" />
+  <testcase name="expiredSignalAndFutureSignalDoNotCount" classname="dev.hwanaebi.core.StressEngineTest" time="0.0" />
+  <testcase name="missingRecordingDoesNotPlayOrSynthesize" classname="dev.hwanaebi.core.StressEngineTest" time="0.0" />
+  <testcase name="suspendStopsAndClearsEvidence" classname="dev.hwanaebi.core.StressEngineTest" time="0.001" />
+  <testcase name="newHazardStopsAndDiscardsCurrentPlayback" classname="dev.hwanaebi.core.StressEngineTest" time="0.028" />
+  <testcase name="twoSignalsNeverTrigger" classname="dev.hwanaebi.core.StressEngineTest" time="0.0" />
+  <testcase name="andThenSafetyAutomaticallyRequestsPlayback" classname="dev.hwanaebi.core.StressEngineTest" time="0.001" />
+  <testcase name="unavailableByDefault" classname="dev.hwanaebi.core.StressEngineTest" time="0.0" />
+  <testcase name="hardBrakeCountIsNotSuppressedByCooldownAndDuplicatesAreIgnored" classname="dev.hwanaebi.core.StressEngineTest" time="0.0" />
+  <testcase name="consumedDuplicateSamplesCannotRetrigger" classname="dev.hwanaebi.core.StressEngineTest" time="0.001" />
+  <testcase name="lossOfConnectionAndConsentStopImmediately" classname="dev.hwanaebi.core.StressEngineTest" time="0.001" />
+  <testcase name="safeBeforeAndAlsoWorksWithoutUiButton" classname="dev.hwanaebi.core.StressEngineTest" time="0.0" />
+  <testcase name="expiryStopsPreparationAndPermitFailsAtPlayerBoundary" classname="dev.hwanaebi.core.StressEngineTest" time="0.0" />
+  <testcase name="safetyRevocationDuringAsyncPreparationStops" classname="dev.hwanaebi.core.StressEngineTest" time="0.001" />
+  <testcase name="longRecordingIsNotKilledByPendingTtl" classname="dev.hwanaebi.core.StressEngineTest" time="0.0" />
+  </testsuite>

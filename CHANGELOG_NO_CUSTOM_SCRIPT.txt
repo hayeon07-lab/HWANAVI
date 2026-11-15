@@ -1,0 +1,31 @@
+HWANAEBI INTEGRATED - REMOVE CUSTOM SCRIPT UI
+
+Changes
+- Removed the entire user-written script editor section from the voice-pack screen.
+- Removed the written-script line from the home screen.
+- Removed the corresponding write callback and runtime data field.
+- Removed custom script serialization from the voice repository.
+- Kept voice character and intensity selection, MP3 import, recording selection, volume and preview.
+- Updated Settings text to refer only to locally stored recordings and voice-pack choices.
+- Existing prerecorded angry_voice.mp3 and weather-based Korean TTS logic are unchanged.
+- Existing sensor-demo engine and developer tools are unchanged.
+
+Existing app data
+- Legacy script fields already saved in preferences are no longer read or displayed.
+- Previously imported MP3 metadata remains readable. On a future voice-pack save, the unused script field is omitted.
+- This update does not proactively erase the user's previous preferences or MP3 files.
+
+Modified Kotlin files
+ui/src/main/kotlin/dev/hwanaebi/ui/HwanaebiScreen.kt
+ui/src/main/kotlin/dev/hwanaebi/ui/HwanaebiViewModel.kt
+ui/src/main/kotlin/dev/hwanaebi/ui/VoiceRepository.kt
+
+Validation
+- Source-level checks are possible here. The full Android Gradle build and emulator test must be run in Android Studio on your computer.
+
+Install
+1. Keep your existing working project as-is (backup).
+2. Extract the new ZIP to a separate folder.
+3. Open Hwanaebi_Integrated via Android Studio > File > Open.
+4. Sync Gradle and Build > Make Project, then Run > app.
+5. Check that AI voice packs no longer show a custom-script editor and MP3 preview still works.

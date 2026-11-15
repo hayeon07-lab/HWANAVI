@@ -1,0 +1,13 @@
+HWANAEBI INTEGRATED PROJECT - WINDOWS QUICK START
+
+1. Right-click HWANAEBI_PROJECT_ENGLISH_NAMES.zip -> Extract All.
+2. Open Android Studio -> File -> Open.
+3. Choose extracted Hwanaebi_Integrated directory, containing settings.gradle.kts.
+4. Gradle Sync, then app / Medium Phone API 37.0 / Run.
+5. Keep your OLD DaesinHwanaeCAR project unchanged as a backup.
+
+This archive is a SOURCE PROJECT, not an installable APK.
+The Android APK build has NOT been verified here due to missing Android SDK/Gradle distribution.
+Contains original user angry_voice.mp3 and unmodified UI source/assets.
+Actual vehicle, smartwatch, voice-emotion sensor integrations are NOT implemented.
+See README_FIRST.md for more details.

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App shell only: match the unchanged Codex Compose dark navy theme. -->
+    <style name="Theme.DaesinHwanaeCAR" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#0B1116</item>
+        <item name="android:navigationBarColor">#0B1116</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:windowBackground">#0B1116</item>
+    </style>
+</resources>
